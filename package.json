@@ -1,0 +1,16 @@
+{
+  "name": "playwright-qa-suite",
+  "version": "1.0.0",
+  "description": "E2E + API test framework (Playwright + TypeScript) for Automation Exercise.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0"
+  }
+}

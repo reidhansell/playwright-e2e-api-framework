@@ -1,0 +1,18 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# secrets / env
+.env
+.env.*
+
+# personal Claude Code permission posture — never committed
+.claude/settings.local.json
+
+# editors / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
