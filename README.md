@@ -1,5 +1,7 @@
 # Playwright QA Suite — Automation Exercise
 
+[![Playwright Tests](https://github.com/reidhansell/playwright-e2e-api-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/reidhansell/playwright-e2e-api-framework/actions/workflows/ci.yml)
+
 End-to-end and API test framework for [automationexercise.com](https://automationexercise.com),
 built with **Playwright + TypeScript**. Cross-browser (Chromium / Firefox / WebKit), page-object
 structured, and run in CI on every push.
