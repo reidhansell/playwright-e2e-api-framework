@@ -1,13 +1,17 @@
 import { test, expect } from '@playwright/test';
+import { LoginPage } from '../../pages/LoginPage';
 
 test.describe('Login', () => {
-  test('FailedLogin', async ({ page }) => {
-    await page.goto('/login');
-    const LOGIN_FORM = page.locator('form').filter({ hasText: 'Login' });
-    await LOGIN_FORM.getByPlaceholder('Email Address').fill('notarealemail@email.com');
-    await LOGIN_FORM.getByPlaceholder('Password').fill('notarealpassword');
-    await expect(page.getByText('Your email or password is incorrect!')).toBeHidden();
-    await page.getByRole('button', { name: 'Login' }).click();
-    await expect(page.getByText('Your email or password is incorrect!')).toBeVisible();
+  let loginPage: LoginPage;
+
+  test.beforeEach(async ({ page }) => {
+    loginPage = new LoginPage(page);
+    await loginPage.goto();
   });
-})
+
+  test('FailedLogin', async () => {
+    await expect(loginPage.loginError).toBeHidden();
+    await loginPage.login('notarealemail@email.com', 'notarealpassword');
+    await expect(loginPage.loginError).toBeVisible();
+  });
+});
