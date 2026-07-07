@@ -9,7 +9,7 @@ test.describe('Login', () => {
     await loginPage.goto();
   });
 
-  test('FailedLogin', async () => {
+  test('Failed login', async () => {
     await expect(loginPage.loginError).toBeHidden();
     await loginPage.login('notarealemail@email.com', 'notarealpassword');
     await expect(loginPage.loginError).toBeVisible();
