@@ -4,19 +4,22 @@ export class ProductsPage {
   readonly page: Page;
   readonly search: Locator;
   readonly searchSubmit: Locator;
+  readonly addedToCartModal: Locator;
 
   constructor(page: Page) {
     this.page = page;
     this.search = page.getByPlaceholder('Search Product');
     this.searchSubmit = page.locator('#submit_search');
+    this.addedToCartModal = page.getByText('Your product has been added to cart.');
   }
 
   async goto() {
-    await this.page.goto('/products');
+    await this.page.goto('/products', { waitUntil: 'domcontentloaded' });
   }
 
   async addToCart(productId: string) {
     await this.page.locator('.productinfo').locator(`[data-product-id="${productId}"]`).click();
+    await this.addedToCartModal.waitFor();
   }
 
   async filterByCategory(category: string) {
