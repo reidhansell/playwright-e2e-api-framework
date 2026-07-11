@@ -1,0 +1,833 @@
+{
+    "title": "signup bug",
+    "steps": [
+        {
+            "type": "navigate",
+            "url": "https://automationexercise.com/login"
+        },
+        {
+            "type": "setViewport",
+            "width": 1425,
+            "height": 983,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://automationexercise.com/login",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://automationexercise.com/login",
+                    "title": "Automation Exercise - Signup / Login"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Name"
+                ],
+                [
+                    "[data-qa='signup-name']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"signup-name\"]"
+                ],
+                [
+                    "pierce/[data-qa='signup-name']"
+                ]
+            ],
+            "offsetY": 10.199981689453125,
+            "offsetX": 136.20001220703125
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyUp",
+            "key": "Shift",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/Name"
+                ],
+                [
+                    "[data-qa='signup-name']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"signup-name\"]"
+                ],
+                [
+                    "pierce/[data-qa='signup-name']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "reid@test.test",
+            "selectors": [
+                [
+                    "[data-qa='signup-email']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"signup-email\"]"
+                ],
+                [
+                    "pierce/[data-qa='signup-email']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Signup"
+                ],
+                [
+                    "[data-qa='signup-button']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"signup-button\"]"
+                ],
+                [
+                    "pierce/[data-qa='signup-button']"
+                ]
+            ],
+            "offsetY": 24.199981689453125,
+            "offsetX": 45.20001220703125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://automationexercise.com/signup",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Mr."
+                ],
+                [
+                    "#id_gender1"
+                ],
+                [
+                    "xpath///*[@id=\"id_gender1\"]"
+                ],
+                [
+                    "pierce/#id_gender1"
+                ]
+            ],
+            "offsetY": 4.199981689453125,
+            "offsetX": 4.3000030517578125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password *"
+                ],
+                [
+                    "[data-qa='password']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"password\"]"
+                ],
+                [
+                    "pierce/[data-qa='password']"
+                ]
+            ],
+            "offsetY": 16.20001220703125,
+            "offsetX": 107.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/Password *"
+                ],
+                [
+                    "[data-qa='password']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"password\"]"
+                ],
+                [
+                    "pierce/[data-qa='password']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-qa='days']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"days\"]"
+                ],
+                [
+                    "pierce/[data-qa='days']"
+                ]
+            ],
+            "offsetY": 15.199981689453125,
+            "offsetX": 48.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "2",
+            "selectors": [
+                [
+                    "[data-qa='days']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"days\"]"
+                ],
+                [
+                    "pierce/[data-qa='days']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-qa='months']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"months\"]"
+                ],
+                [
+                    "pierce/[data-qa='months']"
+                ]
+            ],
+            "offsetY": 6.199981689453125,
+            "offsetX": 13.3125
+        },
+        {
+            "type": "change",
+            "value": "2",
+            "selectors": [
+                [
+                    "[data-qa='months']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"months\"]"
+                ],
+                [
+                    "pierce/[data-qa='months']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-qa='years']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"years\"]"
+                ],
+                [
+                    "pierce/[data-qa='years']"
+                ]
+            ],
+            "offsetY": 13.199981689453125,
+            "offsetX": 26.324981689453125
+        },
+        {
+            "type": "change",
+            "value": "2020",
+            "selectors": [
+                [
+                    "[data-qa='years']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"years\"]"
+                ],
+                [
+                    "pierce/[data-qa='years']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/First name *"
+                ],
+                [
+                    "[data-qa='first_name']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"first_name\"]"
+                ],
+                [
+                    "pierce/[data-qa='first_name']"
+                ]
+            ],
+            "offsetY": 25.199981689453125,
+            "offsetX": 91.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/First name *"
+                ],
+                [
+                    "[data-qa='first_name']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"first_name\"]"
+                ],
+                [
+                    "pierce/[data-qa='first_name']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Last name *"
+                ],
+                [
+                    "[data-qa='last_name']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"last_name\"]"
+                ],
+                [
+                    "pierce/[data-qa='last_name']"
+                ]
+            ],
+            "offsetY": 28.199981689453125,
+            "offsetX": 59.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/Last name *"
+                ],
+                [
+                    "[data-qa='last_name']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"last_name\"]"
+                ],
+                [
+                    "pierce/[data-qa='last_name']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Company"
+                ],
+                [
+                    "[data-qa='company']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"company\"]"
+                ],
+                [
+                    "pierce/[data-qa='company']"
+                ]
+            ],
+            "offsetY": 27.199981689453125,
+            "offsetX": 57.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/Company"
+                ],
+                [
+                    "[data-qa='company']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"company\"]"
+                ],
+                [
+                    "pierce/[data-qa='company']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Address * (Street address, P.O. Box, Company name, etc.)"
+                ],
+                [
+                    "[data-qa='address']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"address\"]"
+                ],
+                [
+                    "pierce/[data-qa='address']"
+                ]
+            ],
+            "offsetY": 20.199981689453125,
+            "offsetX": 127.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/Address * (Street address, P.O. Box, Company name, etc.)"
+                ],
+                [
+                    "[data-qa='address']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"address\"]"
+                ],
+                [
+                    "pierce/[data-qa='address']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Address 2"
+                ],
+                [
+                    "[data-qa='address2']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"address2\"]"
+                ],
+                [
+                    "pierce/[data-qa='address2']"
+                ]
+            ],
+            "offsetY": 14.199981689453125,
+            "offsetX": 42.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/Address 2"
+                ],
+                [
+                    "[data-qa='address2']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"address2\"]"
+                ],
+                [
+                    "pierce/[data-qa='address2']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Country *"
+                ],
+                [
+                    "[data-qa='country']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"country\"]"
+                ],
+                [
+                    "pierce/[data-qa='country']"
+                ]
+            ],
+            "offsetY": 16.20001220703125,
+            "offsetX": 78.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "United States",
+            "selectors": [
+                [
+                    "aria/Country *"
+                ],
+                [
+                    "[data-qa='country']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"country\"]"
+                ],
+                [
+                    "pierce/[data-qa='country']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/State *"
+                ],
+                [
+                    "[data-qa='state']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"state\"]"
+                ],
+                [
+                    "pierce/[data-qa='state']"
+                ]
+            ],
+            "offsetY": 5.20001220703125,
+            "offsetX": 70.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/State *"
+                ],
+                [
+                    "[data-qa='state']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"state\"]"
+                ],
+                [
+                    "pierce/[data-qa='state']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/City * Zipcode *"
+                ],
+                [
+                    "[data-qa='city']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"city\"]"
+                ],
+                [
+                    "pierce/[data-qa='city']"
+                ]
+            ],
+            "offsetY": 11.20001220703125,
+            "offsetX": 52.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/City * Zipcode *"
+                ],
+                [
+                    "[data-qa='city']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"city\"]"
+                ],
+                [
+                    "pierce/[data-qa='city']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-qa='zipcode']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"zipcode\"]"
+                ],
+                [
+                    "pierce/[data-qa='zipcode']"
+                ]
+            ],
+            "offsetY": 21.20001220703125,
+            "offsetX": 52.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "[data-qa='zipcode']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"zipcode\"]"
+                ],
+                [
+                    "pierce/[data-qa='zipcode']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Mobile Number *"
+                ],
+                [
+                    "[data-qa='mobile_number']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"mobile_number\"]"
+                ],
+                [
+                    "pierce/[data-qa='mobile_number']"
+                ]
+            ],
+            "offsetY": 16.20001220703125,
+            "offsetX": 54.30000305175781
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "aria/Mobile Number *"
+                ],
+                [
+                    "[data-qa='mobile_number']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"mobile_number\"]"
+                ],
+                [
+                    "pierce/[data-qa='mobile_number']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Create Account"
+                ],
+                [
+                    "[data-qa='create-account']"
+                ],
+                [
+                    "xpath///*[@data-qa=\"create-account\"]"
+                ],
+                [
+                    "pierce/[data-qa='create-account']"
+                ],
+                [
+                    "text/Create Account"
+                ]
+            ],
+            "offsetY": 15.20001220703125,
+            "offsetX": 71.30000305175781,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://automationexercise.com/account_created",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
